@@ -1,0 +1,242 @@
+@font-face {
+    font-family: almarenaBold;
+    src: url(fonts/Almarena-Almarena-Display-Bold.otf);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: almarenaLight;
+    src: url(fonts/Almarena-Almarena-Display-Light.otf);
+   
+  }
+  @font-face {
+    font-family: almarenaRegular;
+    src: url(fonts/Almarena-Almarena-Display-Regular.otf);
+   
+   
+  }
+  @font-face {
+    font-family: almarena;
+    src: url(fonts/Almarena-Almarena.otf);
+   
+  }
+
+main{
+    display: flex;
+    height: 100vh;
+}
+.div1{
+    background-color: rgb(255, 246, 238);
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.div2{
+  
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ 
+
+
+
+}
+
+.div2>.inner{
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 30px 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 30px 30px 15px;
+    width: 70%;
+    overflow: scroll;
+ 
+    padding-bottom: 55px;
+    height: 95vh;
+ 
+   
+}
+.inner::-webkit-scrollbar {
+    display: none;
+  }
+  .innerFirst::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    padding: 0;
+    margin: 0;
+}
+.altSchool{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.boldText{
+    font-family: almarenaBold;
+    text-align: center;
+   
+    font-size: 50px;
+    margin: 0;
+}
+.firstBoldText{
+   margin-top: 40px;
+}
+
+.smallText{
+    font-family: almarenaRegular;
+    font-weight: 10;
+  
+   
+    font-size: 1.575rem;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
+.socialDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+.footNote{
+    font-family: almarena;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 0;
+    font-size: 15px;
+    color: #aaa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 35px;
+}
+.style_rightEllipseImg__SHT9C{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.svg2{
+    position: absolute;
+    bottom: -46px;
+    left: -60px;
+    rotate: 140deg;
+}
+.formTitle{
+    font-family: almarenaBold;
+}
+.fill{
+    font-family: almarena;
+    color: rgb(123, 123, 123);
+    font-size: 1rem;
+}
+.formInputHolder{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.formInput{
+    width: 47%;
+ 
+}
+.formInput>input,.formInput>select{
+    width: 100%;
+    font-family: almarena;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(216, 219, 223);
+    box-shadow: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 0;
+   
+    border-radius: 4px;
+ 
+    color: rgb(11, 30, 75);
+  
+    transition: all 0.3s ease 0s;
+    margin-top: 5px;
+    padding-left: 4px;
+}
+.formInput>select>option{
+    color: rgb(11, 30, 75);
+
+}
+.formInput>input:focus{
+    border: 1px solid rgb(32, 84, 210) ;
+}
+.formInput>label{
+    position: relative;
+    font-family: almarena;
+    line-height: normal;
+  letter-spacing: -0.015px;
+font-size: 14px;
+font-weight: 100
+
+}
+.formInput>label>sub{
+    color: red;
+    position: absolute;
+}
+.privacy{
+    font-family: almarena;
+    color: rgb(123, 123, 123);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.privacy>span{
+    color: rgb(32, 84, 210);
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    background-color: rgb(106, 111, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.lastText{
+    font-family: almarena;
+    text-align: center;
+}
+.aboutLink{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    font-family: almarena;
+    margin-top: 40px;
+    font-size: 23px;
+
+
+
+}
+.lastText>span{
+    color: rgb(32, 84, 210);
+    cursor: pointer;
+
+}
+@media(min-width:1581px){
+    .div2>.inner{
+        height: auto;
+    
+    }
+}
